@@ -1,0 +1,142 @@
+body {
+    background-color: #f8f9fa;
+  }
+  .sidebar {
+    background-color: #ffffff;
+    color: black;
+    min-height: 100vh;
+    width: 320px;
+  }
+
+  #sidebar.collapsed {
+    width: 70px;
+  }
+  #sidebar .nav-link {
+    transition: opacity 0.3s;
+  }
+  #sidebar.collapsed .nav-link {
+    opacity: 0;
+    display: none;
+  }
+
+  #sidebar.collapsed .nav-item {
+    padding: 15px 10px;
+  } 
+
+  #sidebar.collapsed .text-start {
+    display: none;
+  }
+
+  #sidebar.collapsed .nav-link a {
+    display: none ;
+  }
+
+  #sidebar.collapsed .logo{
+    display: none;
+  }
+
+  #sidebar.collapsed ul li p {
+    display: none !important;
+    padding: 0 !important;
+  }
+
+  #sidebar.collapsed img {
+    display: none;
+  }
+
+  #sidebar.collapsed .bg-primary {
+    overflow: hidden;
+    background-color: transparent !important;
+    color: blue !important;
+    border: 1px solid blue ;
+    padding: 5px !important;
+    text-align: center !important;
+    margin: auto;
+  }
+
+  #sidebar.collapsed .bg-primary .text-light {
+    color: #007bff !important
+  }
+
+  #sidebar.collapsed .mt-3 {
+    display: none;
+    margin:  0 !important;
+  }
+
+  #sidebar.collapsed p {
+    display: none !important;
+  }
+
+  #sidebar.collapsed .nav-item:nth-child(1) {
+    /* Gaya khusus untuk elemen kedua */
+    margin: 0 !important; /* Misalnya, untuk menyembunyikan elemen kedua */
+  }
+
+  #sidebar.collapsed .nav-item:nth-child(2) {
+    /* Gaya khusus untuk elemen kedua */
+    display: none !important; /* Misalnya, untuk menyembunyikan elemen kedua */
+  }
+  .pointer {
+    cursor: pointer;
+  }
+  
+  .sidebar a {
+    color: black;
+  }
+  .content {
+    padding: 20px;
+  }
+  .card-icon {
+    font-size: 2rem;
+  }
+  .nav-item {
+    font-size: 1.2rem;
+  }
+  .bg-dashboard {
+    background-color: #006adb;
+    height: 200px;
+    width: 100%;
+    position: absolute;
+    z-index: -50;
+  }
+  .table thead th {
+    vertical-align: middle;
+  }
+  .table td, .table th {
+    text-align: center;
+  }
+  .btn-action {
+    font-size: 1.2rem;
+  }
+  .top-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .wrapper-enteries {
+      width: 200px;
+  }
+
+  ul li p {
+    font-size: 13px;
+    font-weight: 500;
+  }
+
+  ul li a {
+    font-size: 1rem;
+  }
+
+  .bg-primary-dark {
+    background-color: #065fbe;
+  }
+
+  .text-index{
+    overflow: hidden;
+    max-height: 72; /* Membatasi hingga 2 baris */
+    -webkit-line-clamp: 2; /* Tentukan jumlah baris */
+    -webkit-box-orient: vertikal;
+  }
+
+  .pointer {
+    cursor: pointer;
+  }
