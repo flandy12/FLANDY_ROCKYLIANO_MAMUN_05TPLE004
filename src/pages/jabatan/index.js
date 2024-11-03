@@ -1,3 +1,4 @@
+import Link from "next/link";
 import LayoutPage from "../layout";
 
 export default function JabatanPage () {
@@ -9,11 +10,11 @@ export default function JabatanPage () {
                 <div id="wrapper_form_karyawan">
                   <div className="top-section mb-3">
                     <h4>Data Jabatan</h4>
-                    <a href="/jabatan/add" >
+                    <Link to="/jabatan/add" >
                       <button className="btn btn-primary" id="btn_tambah_karyawan" data-target="form-element">
                         <i className="bi bi-plus-lg"></i> Tambah Jabatan
                       </button>
-                    </a>
+                    </Link>
                 </div>
 
                 <div className="d-flex justify-content-between align-content-center my-4">
@@ -49,8 +50,8 @@ export default function JabatanPage () {
                             <td>JAB001</td>
                             <td>Kepala Bagian</td>
                             <td>
-                              <a href="#" className="text-primary"><i className="bi bi-pencil-square"></i></a>
-                              <a href="#" className="text-danger ms-3"><i className="bi bi-x-circle"></i></a>
+                              <Link to="#" className="text-primary"><i className="bi bi-pencil-square"></i></Link>
+                              <Link to="#" className="text-danger ms-3"><i className="bi bi-x-circle"></i></Link>
                             </td>
                           </tr>
                           <tr>
@@ -58,8 +59,8 @@ export default function JabatanPage () {
                             <td>JAB002</td>
                             <td>Kepala Sub Bagian</td>
                             <td>
-                              <a href="#" className="text-primary"><i className="bi bi-pencil-square"></i></a>
-                              <a href="#" className="text-danger ms-3"><i className="bi bi-x-circle"></i></a>
+                              <Link to="#" className="text-primary"><i className="bi bi-pencil-square"></i></Link>
+                              <Link to="#" className="text-danger ms-3"><i className="bi bi-x-circle"></i></Link>
                             </td>
                           </tr>
                           <tr>
@@ -67,8 +68,8 @@ export default function JabatanPage () {
                             <td>JAB003</td>
                             <td>Staff</td>
                             <td>
-                              <a href="#" className="text-primary"><i className="bi bi-pencil-square"></i></a>
-                              <a href="#" className="text-danger ms-3"><i className="bi bi-x-circle"></i></a>
+                              <Link to="#" className="text-primary"><i className="bi bi-pencil-square"></i></Link>
+                              <Link to="#" className="text-danger ms-3"><i className="bi bi-x-circle"></i></Link>
                             </td>
                           </tr>
                           <tr>
@@ -76,8 +77,8 @@ export default function JabatanPage () {
                             <td>JAB004</td>
                             <td>Warek I</td>
                             <td>
-                              <a href="#" className="text-primary"><i className="bi bi-pencil-square"></i></a>
-                              <a href="#" className="text-danger ms-3"><i className="bi bi-x-circle"></i></a>
+                              <Link to="#" className="text-primary"><i className="bi bi-pencil-square"></i></Link>
+                              <Link to="#" className="text-danger ms-3"><i className="bi bi-x-circle"></i></Link>
                             </td>
                           </tr>
                         </tbody>
@@ -112,8 +113,8 @@ export default function JabatanPage () {
                           <div className="d-flex gap-3">
                               <h5>Form</h5>
                               <ol className="breadcrumb">
-                              <li className="breadcrumb-item"><a href="#">Home</a></li>
-                              <li className="breadcrumb-item"><a href="#">Jabatan</a></li>
+                              <li className="breadcrumb-item"><Link to="#">Home</Link></li>
+                              <li className="breadcrumb-item"><Link to="#">Jabatan</Link></li>
                               <li className="breadcrumb-item active" aria-current="page">Tambah Jabatan</li>
                               </ol>
                           </div>

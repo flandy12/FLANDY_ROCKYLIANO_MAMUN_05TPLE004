@@ -1,3 +1,4 @@
+import Link from "next/link";
 import LayoutPage from "../layout";
 
 export default function DivisiPage () {
@@ -8,11 +9,11 @@ export default function DivisiPage () {
                   <div id="wrapper_table_karyawan">
                       <div className="top-section mb-3">
                           <h4>Data Divisi</h4>
-                        <a href="/divisi/add">
+                        <Link to="/divisi/add">
                         <button className="btn btn-primary" id="btn_tambah_karyawan" data-target="form-element">
                             <i className="bi bi-plus-lg"></i> Tambah Divisi
                         </button>
-                        </a>
+                        </Link>
                       </div>
 
                       <div className="d-flex justify-content-between align-content-center my-4">
@@ -48,8 +49,8 @@ export default function DivisiPage () {
                                   <td>DIV001</td>
                                   <td>Umum</td>
                                   <td>
-                                      <a href="#" className="text-primary"><i className="bi bi-pencil-square"></i></a>
-                                      <a href="#" className="text-danger ms-3"><i className="bi bi-x-circle"></i></a>
+                                      <Link to="#" className="text-primary"><i className="bi bi-pencil-square"></i></Link>
+                                      <Link to="#" className="text-danger ms-3"><i className="bi bi-x-circle"></i></Link>
                                   </td>
                               </tr>
                               <tr>
@@ -57,8 +58,8 @@ export default function DivisiPage () {
                                   <td>DIV002</td>
                                   <td>BAUK</td>
                                   <td>
-                                      <a href="#" className="text-primary"><i className="bi bi-pencil-square"></i></a>
-                                      <a href="#" className="text-danger ms-3"><i className="bi bi-x-circle"></i></a>
+                                      <Link to="#" className="text-primary"><i className="bi bi-pencil-square"></i></Link>
+                                      <Link to="#" className="text-danger ms-3"><i className="bi bi-x-circle"></i></Link>
                                   </td>
                               </tr>
                               <tr>
@@ -66,8 +67,8 @@ export default function DivisiPage () {
                                   <td>DIV003</td>
                                   <td>BAA</td>
                                   <td>
-                                      <a href="#" className="text-primary"><i className="bi bi-pencil-square"></i></a>
-                                      <a href="#" className="text-danger ms-3"><i className="bi bi-x-circle"></i></a>
+                                      <Link to="#" className="text-primary"><i className="bi bi-pencil-square"></i></Link>
+                                      <Link to="#" className="text-danger ms-3"><i className="bi bi-x-circle"></i></Link>
                                   </td>
                               </tr>
                               <tr>
@@ -75,8 +76,8 @@ export default function DivisiPage () {
                                   <td>DIV004</td>
                                   <td>IT</td>
                                   <td>
-                                      <a href="#" className="text-primary"><i className="bi bi-pencil-square"></i></a>
-                                      <a href="#" className="text-danger ms-3"><i className="bi bi-x-circle"></i></a>
+                                      <Link to="#" className="text-primary"><i className="bi bi-pencil-square"></i></Link>
+                                      <Link to="#" className="text-danger ms-3"><i className="bi bi-x-circle"></i></Link>
                                   </td>
                               </tr>
                               <tr>
@@ -84,8 +85,8 @@ export default function DivisiPage () {
                                   <td>DIV005</td>
                                   <td>Cleaning Service</td>
                                   <td>
-                                      <a href="#" className="text-primary"><i className="bi bi-pencil-square"></i></a>
-                                      <a href="#" className="text-danger ms-3"><i className="bi bi-x-circle"></i></a>
+                                      <Link to="#" className="text-primary"><i className="bi bi-pencil-square"></i></Link>
+                                      <Link to="#" className="text-danger ms-3"><i className="bi bi-x-circle"></i></Link>
                                   </td>
                               </tr>
                               <tr>
@@ -93,8 +94,8 @@ export default function DivisiPage () {
                                 <td>DIV006</td>
                                 <td>OB</td>
                                 <td>
-                                    <a href="#" className="text-primary"><i className="bi bi-pencil-square"></i></a>
-                                    <a href="#" className="text-danger ms-3"><i className="bi bi-x-circle"></i></a>
+                                    <Link to="#" className="text-primary"><i className="bi bi-pencil-square"></i></Link>
+                                    <Link to="#" className="text-danger ms-3"><i className="bi bi-x-circle"></i></Link>
                                 </td>
                             </tr>
                           </tbody>
@@ -110,9 +111,9 @@ export default function DivisiPage () {
                                 <li className="page-item disabled">
                                   <span className="page-link">Previous</span>
                                 </li>
-                                <li className="page-item active"><a className="page-link" href="#">1</a></li>
+                                <li className="page-item active"><Link className="page-link" to="#">1</Link></li>
                                 <li className="page-item">
-                                  <a className="page-link" href="#">Next</a>
+                                  <Link className="page-link" to="#">Next</Link>
                                 </li>
                               </ul>
                           </nav>

@@ -10,11 +10,11 @@ export default  function Karyawan() {
                 <div id="wrapper_table_karyawan">
                     <div className="top-section mb-3 ">
                         <h4>Data Karyawan</h4>
-                        <a href="/karyawan/add">
+                        <link to="/karyawan/add">
                             <button className="btn btn-primary" id="btn_tambah_karyawan" data-target="form-element">
                                 <i className="bi bi-plus-lg"></i> Tambah Karyawan
                             </button>
-                        </a>
+                        </link>
                     </div>
 
                     <div className="d-flex justify-content-between align-content-center my-4">
@@ -149,8 +149,8 @@ export default  function Karyawan() {
                             <div className="d-flex gap-3">
                                 <h5>Form</h5>
                                 <ol className="breadcrumb">
-                                <li className="breadcrumb-item"><a href="#">Home</a></li>
-                                <li className="breadcrumb-item"><a href="#">Karyawan</a></li>
+                                <li oclassName="breadcrumb-item"><link t="#">Home</link></li>
+                                <li oclassName="breadcrumb-item"><link t="#">Karyawan</link></li>
                                 <li className="breadcrumb-item active" aria-current="page">Tambah Data Karyawan</li>
                                 </ol>
                             </div>
