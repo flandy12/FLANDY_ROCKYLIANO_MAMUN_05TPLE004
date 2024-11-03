@@ -43,8 +43,8 @@ export default function AddKaryawan () {
                                 </div>
                                 <div className="mb-3">
                                 <label htmlFor="exampleInputPassword1" className="form-label">Jenis Kelamin</label>
-                                <select className="form-select" aria-label="Default select example" defaultValue={0}>
-                                    <option value={0}>--</option>
+                                <select className="form-select" aria-label="Default select example" defaultValue="0">
+                                    <option value="0">--</option>
                                     <option value="1">Laki-Laki</option>
                                     <option value="2">Perempuan</option>
                                     </select>
