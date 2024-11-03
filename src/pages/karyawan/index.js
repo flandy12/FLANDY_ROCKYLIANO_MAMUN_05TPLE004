@@ -1,4 +1,4 @@
-'use client'
+import Link from "next/link";
 import LayoutPage from "../layout";
 
 export default  function Karyawan() {
@@ -10,17 +10,17 @@ export default  function Karyawan() {
                 <div id="wrapper_table_karyawan">
                     <div className="top-section mb-3 ">
                         <h4>Data Karyawan</h4>
-                        <link to="/karyawan/add">
+                        <Link href="/karyawan/add">
                             <button className="btn btn-primary" id="btn_tambah_karyawan" data-target="form-element">
                                 <i className="bi bi-plus-lg"></i> Tambah Karyawan
                             </button>
-                        </link>
+                        </Link>
                     </div>
 
                     <div className="d-flex justify-content-between align-content-center my-4">
                         <div className="d-flex gap-2 m-0 text-center align-content-center ">
                             <span className="d-flex text-center m-auto align-content-center">Show</span>
-                            <select className="form-select" aria-label="Default select example" defaultValue={0}>
+                            <select className="form-select" aria-label="Default select example" defaultValue="0">
                                 <option value="0">10</option>
                                 <option value="1">20</option>
                                 <option value="2">30</option>
@@ -149,8 +149,8 @@ export default  function Karyawan() {
                             <div className="d-flex gap-3">
                                 <h5>Form</h5>
                                 <ol className="breadcrumb">
-                                <li oclassName="breadcrumb-item"><link t="#">Home</link></li>
-                                <li oclassName="breadcrumb-item"><link t="#">Karyawan</link></li>
+                                <li oclassName="breadcrumb-item"><Link href="#">Home</Link></li>
+                                <li oclassName="breadcrumb-item"><Link href="#">Karyawan</Link></li>
                                 <li className="breadcrumb-item active" aria-current="page">Tambah Data Karyawan</li>
                                 </ol>
                             </div>

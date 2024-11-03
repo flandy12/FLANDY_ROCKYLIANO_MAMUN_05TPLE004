@@ -10,7 +10,7 @@ export default function JabatanPage () {
                 <div id="wrapper_form_karyawan">
                   <div className="top-section mb-3">
                     <h4>Data Jabatan</h4>
-                    <Link to="/jabatan/add" >
+                    <Link href="/jabatan/add" >
                       <button className="btn btn-primary" id="btn_tambah_karyawan" data-target="form-element">
                         <i className="bi bi-plus-lg"></i> Tambah Jabatan
                       </button>
@@ -20,7 +20,7 @@ export default function JabatanPage () {
                 <div className="d-flex justify-content-between align-content-center my-4">
                     <div className="d-flex gap-2 m-0 text-center align-content-center ">
                         <span className="d-flex text-center m-auto align-content-center">Show</span>
-                        <select className="form-select" aria-label="Default select example" defaultValue={0}>
+                        <select className="form-select" aria-label="Default select example" defaultValue="0">
                             <option value="0">10</option>
                             <option value="1">20</option>
                             <option value="2">30</option>
@@ -50,8 +50,8 @@ export default function JabatanPage () {
                             <td>JAB001</td>
                             <td>Kepala Bagian</td>
                             <td>
-                              <Link to="#" className="text-primary"><i className="bi bi-pencil-square"></i></Link>
-                              <Link to="#" className="text-danger ms-3"><i className="bi bi-x-circle"></i></Link>
+                              <Link href="#" className="text-primary"><i className="bi bi-pencil-square"></i></Link>
+                              <Link href="#" className="text-danger ms-3"><i className="bi bi-x-circle"></i></Link>
                             </td>
                           </tr>
                           <tr>
@@ -59,8 +59,8 @@ export default function JabatanPage () {
                             <td>JAB002</td>
                             <td>Kepala Sub Bagian</td>
                             <td>
-                              <Link to="#" className="text-primary"><i className="bi bi-pencil-square"></i></Link>
-                              <Link to="#" className="text-danger ms-3"><i className="bi bi-x-circle"></i></Link>
+                              <Link href="#" className="text-primary"><i className="bi bi-pencil-square"></i></Link>
+                              <Link href="#" className="text-danger ms-3"><i className="bi bi-x-circle"></i></Link>
                             </td>
                           </tr>
                           <tr>
@@ -68,8 +68,8 @@ export default function JabatanPage () {
                             <td>JAB003</td>
                             <td>Staff</td>
                             <td>
-                              <Link to="#" className="text-primary"><i className="bi bi-pencil-square"></i></Link>
-                              <Link to="#" className="text-danger ms-3"><i className="bi bi-x-circle"></i></Link>
+                              <Link href="#" className="text-primary"><i className="bi bi-pencil-square"></i></Link>
+                              <Link href="#" className="text-danger ms-3"><i className="bi bi-x-circle"></i></Link>
                             </td>
                           </tr>
                           <tr>
@@ -77,8 +77,8 @@ export default function JabatanPage () {
                             <td>JAB004</td>
                             <td>Warek I</td>
                             <td>
-                              <Link to="#" className="text-primary"><i className="bi bi-pencil-square"></i></Link>
-                              <Link to="#" className="text-danger ms-3"><i className="bi bi-x-circle"></i></Link>
+                              <Link href="#" className="text-primary"><i className="bi bi-pencil-square"></i></Link>
+                              <Link href="#" className="text-danger ms-3"><i className="bi bi-x-circle"></i></Link>
                             </td>
                           </tr>
                         </tbody>
@@ -94,7 +94,7 @@ export default function JabatanPage () {
                           <li className="page-item disabled">
                             <span className="page-link">Previous</span>
                           </li>
-                          <li className="page-item active"><a className="page-link" href="#">1</a></li>
+                          <li className="page-item active"><Link className="page-link" href="#">1</Link></li>
                           <li className="page-item">
                             <a className="page-link" href="#">Next</a>
                           </li>
@@ -113,8 +113,8 @@ export default function JabatanPage () {
                           <div className="d-flex gap-3">
                               <h5>Form</h5>
                               <ol className="breadcrumb">
-                              <li className="breadcrumb-item"><Link to="#">Home</Link></li>
-                              <li className="breadcrumb-item"><Link to="#">Jabatan</Link></li>
+                              <li className="breadcrumb-item"><Link href="#">Home</Link></li>
+                              <li className="breadcrumb-item"><Link href="#">Jabatan</Link></li>
                               <li className="breadcrumb-item active" aria-current="page">Tambah Jabatan</li>
                               </ol>
                           </div>

@@ -1,4 +1,5 @@
 import LayoutPage from "@/pages/layout";
+import Link from "next/link";
 import { useRouter } from "next/router";
 
 export default function AddDivisiPage() {
@@ -22,8 +23,8 @@ export default function AddDivisiPage() {
                     <div className="d-flex gap-3">
                         <h5>Form</h5>
                         <ol className="breadcrumb">
-                        <li className="breadcrumb-item"><a href="#">Home</a></li>
-                        <li className="breadcrumb-item"><a href="#">Jabatan</a></li>
+                        <li className="breadcrumb-item"><Link to="#">Home</Link></li>
+                        <li className="breadcrumb-item"><Link to="#">Jabatan</Link></li>
                         <li className="breadcrumb-item active" aria-current="page">Tambah Divisi</li>
                         </ol>
                     </div>
