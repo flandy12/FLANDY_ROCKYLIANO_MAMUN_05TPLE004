@@ -23,8 +23,8 @@ export default function AddDivisiPage() {
                     <div className="d-flex gap-3">
                         <h5>Form</h5>
                         <ol className="breadcrumb">
-                        <li className="breadcrumb-item"><Link to="#">Home</Link></li>
-                        <li className="breadcrumb-item"><Link to="#">Jabatan</Link></li>
+                        <li className="breadcrumb-item"><Link href="#">Home</Link></li>
+                        <li className="breadcrumb-item"><Link href="#">Jabatan</Link></li>
                         <li className="breadcrumb-item active" aria-current="page">Tambah Divisi</li>
                         </ol>
                     </div>
